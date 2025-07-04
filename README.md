@@ -1,64 +1,34 @@
 # -Relational-Database-Design-Project-SQl-
 📌 Overview
-This project focuses on converting a relational database design into a fully implemented SQL Server database. The goal is to define a robust schema with proper keys and relationships, insert and manage data, and ensure referential integrity across all tables.
+This project involves converting a relational design into a fully implemented SQL database using SQL Server. The focus is on creating tables based on the relational design, defining relationships between the tables, and enforcing data integrity through primary and foreign keys.
 
-🧩 Key Tasks
-1. 🎨 Defining the Schema
-Created tables for:
+Key Tasks:-
 
-Users
+Defining the Schema:-
+A. Established relations and attributes for users, roles, user accounts, and statuses.
 
-Roles
+B. Defined primary keys for each table to uniquely identify records.
 
-UserAccounts
+Creating Relationships:- Implemented foreign keys to establish relationships between the tables, ensuring referential integrity.
 
-Statuses
+Data Insertion:- Inserted at least two rows of data into each table, populating the database with sample records.
 
-Defined Primary Keys for each table to uniquely identify records.
+Data Deletion:- Deleted all data from the tables as part of the data management process.
 
-2. 🔗 Creating Relationships
-Established Foreign Key constraints to link related tables.
+Technologies Used:-
 
-Ensured referential integrity through properly designed relationships.
-
-3. 📝 Data Insertion
-Inserted at least two rows into each table for sample population.
-
-4. 🗑️ Data Deletion
-Deleted all records as part of data lifecycle and cleanup operations.
-
-⚙️ Technologies Used
 SQL Server
-
 SQL Server Management Studio (SSMS)
+Skills Demonstrated:-
 
-SQL DDL & DML (CREATE, INSERT, DELETE, CONSTRAINTS)
+Relational Database Design
+SQL Schema Creation
+Data Integrity and Relationships
+SQL Data Manipulation (INSERT, DELETE)
+Download the AdventureWorks database from the following location and restore it in your server:
 
-💼 Skills Demonstrated
-Relational Database Modeling
+Location:- https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks
 
-Primary Key / Foreign Key implementation
+File Name: AdventureWorks2012.bak
 
-Schema design in SQL
-
-Data Integrity Enforcement
-
-Data Manipulation using SQL
-
-🎓 AdventureWorks Practice
-To further enhance your learning, download and restore the AdventureWorks2012 sample database from Microsoft’s official GitHub repository.
-
-🔗 Download Link:
-AdventureWorks2012.bak – GitHub
-
-📝 Steps to Restore:
-
-Download the .bak file from the above link.
-
-Open SSMS and connect to your SQL Server instance.
-
-Right-click on Databases > Restore Database...
-
-Choose Device and select the downloaded .bak file.
-
-Restore the database and begin exploring the schema and data.
+Adventureworks is s sample database shipped with SQL Server and it can be downloaded from the GitHub site. AdventureWorks has replaced Northwind and Pubs sample databases that were available in SQL Server in 2005. Microsoft keeps updating the sample database as it releases new versions.
